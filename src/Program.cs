@@ -5,11 +5,16 @@ namespace TestBot
 {
     class Program
     {
-        private static readonly TelegramBotClient Bot = new TelegramBotClient("472516916:AAHSqofGTucU604HL20wFKfpBYl9PhosRow");
+        
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var bot = new ExpenseBot("472516916:AAHSqofGTucU604HL20wFKfpBYl9PhosRow");
+            
+            bot.Start();
+            Console.WriteLine("Bot started!");
+            Console.ReadLine();
+            Console.WriteLine("Bot terminated..");
         }
     }
 }
