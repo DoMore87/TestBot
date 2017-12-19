@@ -15,7 +15,7 @@ namespace TestBot
         public ExpenseBot(string botToken)
         {
             _botClient = new TelegramBotClient(botToken);
-            _messageProcessor = new GreetingsMessageProcessor(new FallbackMessageProcessor());
+            _messageProcessor = new GreetingsMessageProcessor(new HowAreYouMessageProcessor(new FallbackMessageProcessor()));
         }
 
         public void Start()

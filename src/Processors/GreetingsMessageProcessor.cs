@@ -11,7 +11,7 @@ namespace TestBot.Processors
             "Cosa c'è stavolta???Scherzo, dimmi pure!",
             "Eccomi, a tua disposizione!" };
 
-        protected override string RegexPattern => "^(Ciao|Buonasera|Buongiorno|Bella|Ehil|Salve|Buond) +bot";
+        protected override string RegexPattern => "^(Ciao|Buonasera|Buongiorno|Bella|Ehilà|Salve|Buondì) +bot";
 
         public GreetingsMessageProcessor(IMessageProcessor successor) : base(successor)
         { } 
