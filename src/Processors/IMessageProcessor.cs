@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace TestBot
+namespace TestBot.Processors
 {
     public interface IMessageProcessor
     {

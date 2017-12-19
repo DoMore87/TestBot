@@ -1,5 +1,6 @@
 using System;
-namespace TestBot
+
+namespace TestBot.Processors
 {
     public abstract class MessageProcessor : IMessageProcessor
     {

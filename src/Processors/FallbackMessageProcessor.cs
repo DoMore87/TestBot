@@ -1,4 +1,4 @@
-namespace TestBot
+namespace TestBot.Processors
 {
     public class FallbackMessageProcessor : MessageProcessor
     {
