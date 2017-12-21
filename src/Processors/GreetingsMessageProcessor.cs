@@ -1,5 +1,3 @@
-using System.Text.RegularExpressions;
-
 namespace TestBot.Processors
 {
     public class GreetingsMessageProcessor : RegexMessageProcessor
